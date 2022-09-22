@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+
+}
+.box{
+    height: 2000px;
+}
+.banner{
+    
+    background-color:rgb(248, 85, 34);
+    height: 150px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    margin-top: 100px; */
+}
+.menu ul li{
+    list-style: none;
+    background-color:rgb(248, 85, 34);
+    color: rgb(248, 248, 248);
+    display: block;
+    float: left;
+   
+    
+}
+ .menu ul li a{
+   
+    font-size: 15px;
+    line-height: 50px;
+    display: block;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    color: aliceblue;
+
+}
+.menu :hover{
+    color: rgb(104, 88, 104);
+}
+    
+
+
+.menu-trai{
+    text-align:left;
+    float: left;
+    margin-left: 100px ;
+}
+.menu-phai{
+    float: right;
+    margin-right:100px ;
+    text-align: right;
+
+    
+  
+ }
+ .Menu-bottom  ul li  {
+   float: left;
+   padding: 5px;
+   
+   display: block;
+   
+    
+
+ }
+ .Menu-bottom ul li a{
+    width: 700px;
+    height: 40px;
+    color: white;
+   
+ 
+    text-decoration: none;
+  
+
+ }
+.logo img{ 
+    width: 200px;
+    height: 100px;
+    margin-left: -450px;
+    margin-top: 40px;
+   
+
+}
+.search {
+    
+    width: 750px;
+    height: 60px;
+    margin-top: -70px;
+    margin-left: 380px;
+}
+.search input {
+    width: 700px;
+    height: 40px;
+   
+    
+    /* border-radius: 5px; đường viền tròn */
+    
+}
+ .search form input {
+   
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    
+      
+ }
+ .search form {
+  margin-top: -44px;
+  margin-left: 624px;
+ 
+ }
+ .xehang {
+    width: 750px;
+    height: 60px;
+    margin-left: 80%;
+
+}
+ /* .xehang img{
+    margin-top: 400px;
+ }
+  */
